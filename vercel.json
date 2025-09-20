@@ -1,0 +1,25 @@
+{
+      "headers": [
+        {
+          "source": "/(.*)", // 对所有路径生效
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "https://changanmou.dpdns.org" // 替换为你的博客域名
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS" // 允许的请求方法
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "Content-Type, Authorization" // 允许的请求头
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true" // 允许携带凭证（如需要）
+            }
+          ]
+        }
+      ]
+    }
