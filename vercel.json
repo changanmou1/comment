@@ -5,7 +5,7 @@
           "headers": [
             {
               "key": "Access-Control-Allow-Origin",
-              "value": "https://changanmou.dpdns.org/" 
+              "value": "https://changanmou.dpdns.org" 
             },
             {
               "key": "Access-Control-Allow-Methods",
